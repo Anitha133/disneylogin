@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    input{
+        background-color:black;
+        height: 45px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 17px;
+    }
+    #one{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 100px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    img{
+        border-radius: 20px;
+    }
+    input:focus{
+        color: white;
+        
+    }
+    span{
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.74);
+    }
+    a{
+        color: skyblue;
+        text-decoration: none;
+        font-weight: 800;
+    }
+</style>
+<body>
+    <div>
+        <div>
+            <img src="./logo.png" alt="logo" width="7%" style="padding: 5px;">
+            <center>
+                <h1>Login or sign up to continue</h1>
+                <p style="color: rgba(255, 255, 255, 0.74);">Scan QR code or enter phone number to login</p>
+            </center>
+        </div>
+
+    </div>
+    <div id="one">
+        <div align="center" style="margin-right: 100px;">
+            <img src="./bar.jpg" alt="upi" style="width: 200px;">
+            <h2>Use Camera App to Scan QR</h2>
+            <p style="width: 200px; color: rgba(255, 255, 255, 0.423);">Click on the link generated to redirected to Disney + Hotstar mobile app</p>
+        </div> 
+        <div>
+            <p>OR</p>
+        </div>    
+        <div id="num" style="margin-left: 100px;">
+            <input type="text" placeholder="+91" style="width: 15%;">
+            <input type="text" placeholder="Enter mobile number" style="margin-left: 15px;">
+            <p style="width: 310px; color: rgba(255, 255, 255, 0.423);">
+                By proceeding you confirm that you are above 18 years of age and agree to the <span>Privacy Policy</span> & <span>Terms of Use.</span>
+            </p>
+            <div style="margin-top: 200px;">
+                Having trouble logging in? <a href="#"> Get Help</span></a>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
